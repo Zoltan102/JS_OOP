@@ -25,7 +25,7 @@ class User {
             this.#age = age;
         }else{
             throw new Error("The age must be a positive whole number");
-        }
+        } 
     }
 
     write(){
@@ -41,4 +41,4 @@ let user = new User("User1", 10);
 
 console.log(something instanceof User);
 console.log(user instanceof User);
-user.write();
+user.write(); 
